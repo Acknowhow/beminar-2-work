@@ -27,10 +27,14 @@
             </div>
             <form class="form headline__form">
                 <h3 class="form__header">Задайте свой вопрос</h3>
-                <input class="form__input" type="text" value="имя">
-                <input  class="form__input" type="text" value="email">
+                <input class="form__input form__input_type_name" type="text" value="имя">
+                <input  class="form__input form__input_type_email" type="text" value="email">
                 <textarea class="form__textarea" value="Ваш вопрос">Ваше сообщение</textarea>
                 <input class="button button_view_action" type="submit" value="Отправить">
+                <!-- form__popup -->
+                <div class="form__popup">
+                    Заполните поля формы правильно
+                </div><!-- form__popup -->
             </form>
         </div>
         <div class="content">
@@ -55,6 +59,9 @@
                 <li class="menu__item"><a class="menu__link link" href="https://ru.bem.info">bem.info</a></li>
             </ul>
         </div>
+
+        <script src="https://yastatic.net/jquery/3.1.0/jquery.min.js"></script>
+        <script src="app.js"></script>
 
     </body>
 </html>
