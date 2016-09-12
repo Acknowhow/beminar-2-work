@@ -1,16 +1,15 @@
 .button {
-    padding: 10px;
-    border: 2px solid #fd5;
-    border-radius: 9px;
-    background-color: white;
-    font-size: 18px;
-}
+  padding: 10px;
+  border: 2px solid #fd5;
+  border-radius: 9px;
+  background-color: white;
+  font-size: 18px; }
 
 .button_view_action {
-    padding: 6px 10px;
-    border: 0px;
-    border-radius: 6px;
-    background-color: #fd5;
-    font-size: 14px;
-}
+  padding: 6px 10px;
+  border: 0px;
+  border-radius: 6px;
+  background-color: #fd5;
+  font-size: 14px; }
 
+/*# sourceMappingURL=button.css.map */
